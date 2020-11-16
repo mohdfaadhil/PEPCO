@@ -61,10 +61,7 @@ bool is_bst(node* root,int minv=INT_MIN,int maxv=INT_MAX)
 class info
 {
 	public:
-		int size;
-		int max;
-		int min;
-		int ans;
+		int size , max, min,ans;
 		bool is_bst;
 };
 info larg_BST(node* root)
